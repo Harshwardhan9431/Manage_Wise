@@ -1,0 +1,43 @@
+/* components/Header.css */
+
+.header {
+    background-color: #FFEFE8;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 60px; /* Adjust the height according to your design */
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-left: 15px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .buy-template-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
